@@ -5,14 +5,15 @@
 
 .container {
   background: rgb(2,0,36);
-  background: linear-gradient(180deg, rgba(2,0,36,1) 10%, rgba(255,145,0,1) 100%);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 10%, rgb(255, 0, 0) 100%);
+  margin-top: 200px;
 }
 
 .scoreboard {
   width: 58%;
   margin: 10rem auto;
   background: rgb(2,0,36);
-  background: linear-gradient(4deg, rgba(2,0,36,1) 0%, rgba(0,185,255,1) 100%);
+  background: linear-gradient(4deg, rgba(2,0,36,1) 0%, rgb(255, 0, 0) 100%);
   color: white;
   border-radius: 0.5rem;
   margin-top: 10rem;
@@ -40,11 +41,11 @@
 }
 
 .home {
-  background-color: #656565;
+  background-color: #000981;
 }
 
 .away {
-  background-color: #af750a;
+  background-color: #af0a0a;
 }
 
 .home__name,
@@ -72,11 +73,13 @@
 .timer {
   font-family: "Ozone";
   font-size: 9rem;
+  color: black;
   padding: 2rem;
   text-align: center;
-  background-color: var(--black);
+  background-color: white;
   border: 2px solid white;
   border-radius: 6px;
+  width: 36%;
 }
 
 .bottomRow {
