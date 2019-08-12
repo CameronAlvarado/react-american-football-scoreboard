@@ -3,10 +3,16 @@
   --red: #ff2d2b;
 }
 
+.container {
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 10%, rgba(255,145,0,1) 100%);
+}
+
 .scoreboard {
   width: 58%;
   margin: 10rem auto;
-  background-color: #0b5402;
+  background: rgb(2,0,36);
+  background: linear-gradient(4deg, rgba(2,0,36,1) 0%, rgba(0,185,255,1) 100%);
   color: white;
   border-radius: 0.5rem;
   margin-top: 10rem;

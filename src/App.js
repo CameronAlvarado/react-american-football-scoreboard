@@ -23,6 +23,13 @@ function App() {
     }
   }
 
+  function displayTime() {
+    let date = new Date();
+    let time = date.toLocaleTimeString();
+    document.getElementById('clock').textContent = time.slice(0, -3);
+ }
+ const createClock = setInterval(displayTime, 1000);
+
   return (
     <div className="container">
       <section className="scoreboard">
@@ -34,7 +41,7 @@ function App() {
 
             <div className="home__score">{homeCount}</div>
           </div>
-          <div className="timer">00:03</div>
+          <div className="timer" id="clock">{createClock}</div>
           <div className="away">
             <h2 className="away__name">Tigers</h2>
             <div className="away__score">{awayCount}</div>
